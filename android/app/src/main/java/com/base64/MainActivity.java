@@ -5,10 +5,6 @@ import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
 
-import com.microsoft.appcenter.AppCenter;
-import com.microsoft.appcenter.analytics.Analytics;
-import com.microsoft.appcenter.crashes.Crashes;
-
 public class MainActivity extends ReactActivity {
 
   /**
@@ -24,8 +20,6 @@ public class MainActivity extends ReactActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-
-    AppCenter.start(getApplication(), "d5207f95-f601-491e-b8d5-f46ba7a48ba0", Analytics.class, Crashes.class);
   }
 
   /**
