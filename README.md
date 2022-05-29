@@ -67,6 +67,7 @@ Automatic Deployment to Production. No Intervention
 ## Github Actions:
   - Test (node)
   - Can test with multiple node versions
+  - Multiple Jobs - eg: test # build
   - Build (android gradle)
   - View (ios build)
 #
