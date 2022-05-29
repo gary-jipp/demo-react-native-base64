@@ -1,8 +1,13 @@
 package com.base64;
 
+import android.os.Bundle;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
+
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
 
 public class MainActivity extends ReactActivity {
 
@@ -14,6 +19,16 @@ public class MainActivity extends ReactActivity {
   protected String getMainComponentName() {
     return "base64";
   }
+
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+
+    AppCenter.start(getApplication(), "57925926-50bf-44b7-a4e0-9380a3233c32", Analytics.class, Crashes.class);
+  }
+
+
 
   /**
    * Returns the instance of the {@link ReactActivityDelegate}. There the RootView is created and
