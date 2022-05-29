@@ -50,3 +50,5 @@
 -
 
 https://ariya.io/2020/12/continuous-integration-for-react-native-apps-with-github-actions
+
+https://medium.com/@remi.gallego/automate-react-native-builds-with-github-actions-af54212d26dc
