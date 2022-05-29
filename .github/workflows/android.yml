@@ -26,14 +26,16 @@ jobs:
       - name: Install npm dependencies
         run: |
           npm install
+          
       - name: Build Android Release
         run: |
           cd android
           chmod 770 ./gradlew
           ./gradlew assembleRelease
           ls -al ./app/build/outputs/apk
+
       - name: Upload Artifact
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: app-release.apk
           path: android/app/build/outputs/apk/release/
