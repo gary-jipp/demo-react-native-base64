@@ -35,7 +35,7 @@ jobs:
           cd android
           chmod +x ./gradlew
           ./gradlew assembleRelease
-          ls -al ./app/build/outputs/apk
+          ls -al app/build/outputs/apk
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
