@@ -27,12 +27,17 @@
 #
 #
 
-## CD x 2 - Focused on Post-Development
+# Continuous Delivery / Deployment
 ![CD](__asset/03.png)
+
+## Post-Development
+### App is always ready to be deployed.
+
 ## Continuous Delivery
-App is always ready to be deployed.  Intervention is needed to Deploy to production.  This just the result of CI
+### Intervention is needed to Deploy to production.  This just the result of CI
 ## Continuous Deployment
-Automatic Deployment to Production. No Intervention
+### Automatic Deployment to Production. No Intervention
+
 ![CD](__asset/04.jpg)
 
 #
@@ -47,7 +52,8 @@ Automatic Deployment to Production. No Intervention
 #
 
 
-## CLI Build
+# CLI (Command Line) Builds
+![Command Line](__asset/05.CLI-Build.png)
 - Command Line Test
 - Command Line Build
 - Resulting package can be deployed to a Device or App Store
@@ -64,12 +70,12 @@ Automatic Deployment to Production. No Intervention
 #
 #
 
-## Github Actions:
+# Github Actions:
+![GitHub Actions](__asset/06.GitHub.jpeg)
   - Test (node)
   - Can test with multiple node versions
   - Multiple Jobs - eg: test # build
-  - Build (android gradle)
-  - View (ios build)
+  - Build (android / iOS)
   - Build Status Badges
 #
 #
@@ -78,8 +84,8 @@ Automatic Deployment to Production. No Intervention
 #
 #
 #
-## MS AppCenter
-
+# MS AppCenter
+![MS AppCenter](__asset/07.MSAppcenter.jpeg)
 - Easy to use
 - SDK / Analytics are optional
 - For Android, Need to add JAVA11 environment variable
