@@ -12,7 +12,8 @@ import com.microsoft.appcenter.crashes.Crashes;
 public class MainActivity extends ReactActivity {
 
   /**
-   * Returns the name of the main component registered from JavaScript. This is used to schedule
+   * Returns the name of the main component registered from JavaScript. This is
+   * used to schedule
    * rendering of the component.
    */
   @Override
@@ -20,18 +21,16 @@ public class MainActivity extends ReactActivity {
     return "base64";
   }
 
-
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
-    AppCenter.start(getApplication(), "57925926-50bf-44b7-a4e0-9380a3233c32", Analytics.class, Crashes.class);
+    AppCenter.start(getApplication(), "d5207f95-f601-491e-b8d5-f46ba7a48ba0", Analytics.class, Crashes.class);
   }
 
-
-
   /**
-   * Returns the instance of the {@link ReactActivityDelegate}. There the RootView is created and
+   * Returns the instance of the {@link ReactActivityDelegate}. There the RootView
+   * is created and
    * you can specify the rendered you wish to use (Fabric or the older renderer).
    */
   @Override
