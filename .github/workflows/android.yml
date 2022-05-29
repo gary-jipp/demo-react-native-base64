@@ -33,7 +33,7 @@ jobs:
       - name: Build Android Release
         run: |
           cd android
-          chmod 770 ./gradlew
+          chmod +x ./gradlew
           ./gradlew assembleRelease
           ls -al ./app/build/outputs/apk
 
