@@ -1,5 +1,5 @@
 # React Native CI / CD
-![CD](__asset/CI-CD.png)
+![CD-CD](__asset/01.png)
 
 ## Overview
 ### CI - Development Focused
@@ -10,13 +10,25 @@
 
 #### What we need for CI
  - Code:  Developers
- - Version Control System. Git:  GitHub, GitLab, Bitbucket, etc (not CVS!)
- - CI Runner for Orchastration.  Server to perform the CI Tasks:  GitHub Actions, Jenkins,
- -
+ - Version Control System. Git:  GitHub, GitLab, Bitbucket  (not CVS!)
+ - CI Runner for Orchestration.  Server to perform the CI Tasks:  GitHub Actions, Jenkins,
+ - Build/Test Tools:  Npm, Gradle, Java, Maven, Clang.  Usually run Inside Containers
+ - Artifact Repository:  Place to put the build.  GitHub Packages, MS AppCenter, Artifactory
 
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 
 ### CD x 2 - Focused on Post-Development
-
+![CD](__asset/03.png)
   #### Continuous Delivery
   This just means the App is always ready to be deployed.  Intervention is needed to Deploy to production.  This just the result of CI
   #### Continuous Deployment
@@ -36,3 +48,5 @@
   - test (node)
   - build (android gradle)
 -
+
+https://ariya.io/2020/12/continuous-integration-for-react-native-apps-with-github-actions
