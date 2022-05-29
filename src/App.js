@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {StyleSheet, StatusBar, View, TextInput} from 'react-native';
+import {StyleSheet, StatusBar, View, TextInput, ScrollView} from 'react-native';
 import {Keyboard, SafeAreaView} from 'react-native';
 import Toast from 'react-native-toast-message';
 import base64 from 'react-native-base64';
@@ -69,14 +69,14 @@ export default function App() {
           <Button title="Encode" onPress={encode} />
           <Button title="Decode" onPress={decode} />
         </View>
-        <View style={styles.input}>
+        <ScrollView style={styles.input}>
           <TextInput
             style={styles.textInput}
             multiline={true}
             value={input}
             placeholder="type or paste text"
             onChangeText={onInput} />
-        </View>
+        </ScrollView>
 
       </View>
       <Toast />
