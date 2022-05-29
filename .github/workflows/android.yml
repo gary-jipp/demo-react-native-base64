@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  install-and-test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -15,14 +15,22 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 16.x
-
     - run: npm ci
+    - run: npm test
 
-    - run: ./gradlew assembleDebug -Dorg.gradle.logging.level=info
-      working-directory: android
-      name: Build Android apk (debug)
-
-    - uses: actions/upload-artifact@v2
-      with:
-        name: android-apk
-        path: '**/*.apk'
+  build-android:
+    needs: install-and-test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install npm dependencies
+        run: |
+          npm install
+      - name: Build Android Release
+        run: |
+          cd android && source ./gradlew assembleDebug
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: app-release.apk
+          path: android/app/build/outputs/apk/release/
