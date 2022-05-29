@@ -53,9 +53,10 @@ export default function App() {
 
   const showToast = (text) => {
     Toast.show({
-      type: 'info',
+      type: 'error',
       text1: text,
-      visibilityTime: 2000
+      visibilityTime: 2000,
+      position: 'bottom'
     });
   };
 
