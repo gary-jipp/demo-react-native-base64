@@ -76,15 +76,18 @@ Automatic Deployment to Production. No Intervention
 #
 #
 ## MS AppCenter
-#
-#
+
+- Easy to use
+- SDK / Analytics are optional
+- For Android, Need to add JAVA11 environment variable
+- JAVA_HOME : $(JAVA_HOME_11_X64)
+
 #
 #
 #
 
 
 
-JAVA_HOME : $(JAVA_HOME_11_X64)
 
 https://ariya.io/2020/12/continuous-integration-for-react-native-apps-with-github-actions
 
