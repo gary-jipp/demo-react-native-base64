@@ -82,12 +82,17 @@ Automatic Deployment to Production. No Intervention
 - For Android, Need to add JAVA11 environment variable
 - JAVA_HOME : $(JAVA_HOME_11_X64)
 
+## Code Signing
+- Android:  java keystore
+- IOS:
+  - provisioning profile: apple developer account
+  - certificate & key (p12): xcode
 #
 #
 #
+https://clearbridgemobile.com/how-to-create-a-distribution-provisioning-profile-for-ios/
 
-
-
+https://support.magplus.com/hc/en-us/articles/203808748-iOS-Creating-a-Distribution-Certificate-and-p12-File
 
 https://ariya.io/2020/12/continuous-integration-for-react-native-apps-with-github-actions
 
