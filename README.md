@@ -67,7 +67,24 @@ Automatic Deployment to Production. No Intervention
 ## Github Actions:
   - Test (node)
   - Build (android gradle)
--
+  - View (ios build)
+#
+#
+#
+#
+#
+#
+#
+## MS AppCenter
+#
+#
+#
+#
+#
+
+
+
+
 
 https://ariya.io/2020/12/continuous-integration-for-react-native-apps-with-github-actions
 
