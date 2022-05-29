@@ -70,6 +70,7 @@ Automatic Deployment to Production. No Intervention
   - Multiple Jobs - eg: test # build
   - Build (android gradle)
   - View (ios build)
+  - Build Status Badges
 #
 #
 #
