@@ -1,4 +1,4 @@
-name: Build Android
+name: Android Build
 
 on:
   push:
@@ -42,4 +42,3 @@ jobs:
         with:
           name: app-release.apk
           path: android/app/build/outputs/apk/release/
-
