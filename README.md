@@ -5,14 +5,13 @@
 #
 ![CD-CD](__asset/02-CI.png)
 
-## Overview
-### CI - Development Focused
+# CI - Development Focused
   - Developers Commit / Push to the Shared Respository
   - Every Commit triggers a sequence of events: test and/or build
   - Prevents broken code from getting into the codebase
-  - Generates a Runnable Image APK / IPA
+  - Generates an "Artifact" -> APK, IPA, WAR, TAR, EXE ...
 
-### What we need for CI
+# What we need for CI
  - Code:  Developers
  - Version Control System. Git:  GitHub, GitLab, Bitbucket  (not CVS!)
  - CI Runner for Orchestration.  Server to perform the CI Tasks:  GitHub Actions, Jenkins,
