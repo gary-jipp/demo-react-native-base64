@@ -1,9 +1,10 @@
 # React Native CI / CD
 ![CD-CD](__asset/01.png)
-#
+# Source -> Build -> Test -> Deliver/Deploy
 #
 #
 ![CD-CD](__asset/02-CI.png)
+
 
 # CI - Development Focused
   - Developers Commit / Push to the Shared Respository
@@ -14,9 +15,9 @@
 # What we need for CI
  - Code:  Developers
  - Version Control System. Git:  GitHub, GitLab, Bitbucket  (not CVS!)
- - CI Runner for Orchestration.  Server to perform the CI Tasks:  GitHub Actions, Jenkins,
+ - Pileline: ( Runner / Orchestration).  Server to perform the CI Tasks:  GitHub Actions, Jenkins, Travis, CircleCI
  - Build/Test Tools:  Npm, Gradle, Java, Maven, Clang.  Usually run Inside Containers
- - Artifact Repository:  Place to put the build.  GitHub Packages, MS AppCenter, Artifactory
+ - Artifact Repository:  Place to put the Artifact.  GitHub, NPM, Yarn, MS AppCenter, Artifactory
 
 #
 #
