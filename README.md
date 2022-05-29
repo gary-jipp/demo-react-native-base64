@@ -111,6 +111,8 @@
  - Require some minor native code tweaks
  - Optional but useful
 
+## AppCenter API
+https://openapi.appcenter.ms/
 #
 #
 key alias: apptest
