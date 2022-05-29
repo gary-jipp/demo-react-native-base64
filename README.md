@@ -113,6 +113,8 @@
 
 #
 #
+key alias: apptest
+
 https://clearbridgemobile.com/how-to-create-a-distribution-provisioning-profile-for-ios/
 
 https://support.magplus.com/hc/en-us/articles/203808748-iOS-Creating-a-Distribution-Certificate-and-p12-File
