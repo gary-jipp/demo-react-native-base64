@@ -47,7 +47,7 @@ Automatic Deployment to Production. No Intervention
 #
 
 
-## CIi Build
+## CLI Build
 - Command Line Test
 - Command Line Build
 - Resulting package can be deployed to a Device or App Store
@@ -66,6 +66,7 @@ Automatic Deployment to Production. No Intervention
 
 ## Github Actions:
   - Test (node)
+  - Can test with multiple node versions
   - Build (android gradle)
   - View (ios build)
 #
