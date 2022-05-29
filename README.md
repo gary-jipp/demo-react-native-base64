@@ -81,13 +81,24 @@ Automatic Deployment to Production. No Intervention
 - SDK / Analytics are optional
 - For Android, Need to add JAVA11 environment variable
 - JAVA_HOME : $(JAVA_HOME_11_X64)
+- iOS Buuild takes a lot longer
+
+## AppCenter SDK
+ - Crash Reporting
+ - Analytics
+ - Require some minor native code tweaks
+ - Optional but useful
 
 ## Code Signing
-- Android:  java keystore
+- Android:  Java Keystore
 - IOS:
   - provisioning profile: apple developer account
   - certificate & key (p12): xcode
-#
+
+## Build status badge
+ - can use image or paste markdown
+
+
 #
 #
 https://clearbridgemobile.com/how-to-create-a-distribution-provisioning-profile-for-ios/
