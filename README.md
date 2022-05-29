@@ -83,21 +83,20 @@ Automatic Deployment to Production. No Intervention
 - JAVA_HOME : $(JAVA_HOME_11_X64)
 - iOS Buuild takes a lot longer
 
-## AppCenter SDK
- - Crash Reporting
- - Analytics
- - Require some minor native code tweaks
- - Optional but useful
-
 ## Code Signing
 - Android:  Java Keystore
 - IOS:
-  - provisioning profile: apple developer account
+  - Provisioning Profile: apple developer account
   - certificate & key (p12): xcode
 
 ## Build status badge
  - can use image or paste markdown
 
+## AppCenter SDK
+ - Crash Reporting
+ - Analytics
+ - Require some minor native code tweaks
+ - Optional but useful
 
 #
 #
