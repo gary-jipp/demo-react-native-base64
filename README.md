@@ -84,7 +84,7 @@ Automatic Deployment to Production. No Intervention
 
 
 
-
+JAVA_HOME : $(JAVA_HOME_11_X64)
 
 https://ariya.io/2020/12/continuous-integration-for-react-native-apps-with-github-actions
 
