@@ -109,3 +109,5 @@ https://support.magplus.com/hc/en-us/articles/203808748-iOS-Creating-a-Distribut
 https://ariya.io/2020/12/continuous-integration-for-react-native-apps-with-github-actions
 
 https://medium.com/@remi.gallego/automate-react-native-builds-with-github-actions-af54212d26dc
+
+https://proandroiddev.com/how-to-securely-build-and-sign-your-android-app-with-github-actions-ad5323452ce
