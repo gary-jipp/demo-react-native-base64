@@ -28,8 +28,6 @@
 #
 #
 #
-#
-#
 
 # Continuous Delivery / Deployment
 ![CD](__asset/03.png)
