@@ -18,8 +18,8 @@ jobs:
       with:
         node-version: 16.x
       run: |
-      npm ci
-      npm test
+        npm ci
+        npm test
 
   build-android:
     needs: install-and-test
